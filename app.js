@@ -35,7 +35,7 @@ function cycleImages() {
 }
 
 function insertRating() {
-    const dogRating = ['']
+    const dogRating = ['🐶','🐶','🐶','🐶','🐶','🐶','🐶','🐶','🐶','🐶']
     let output = '';
     let n = 0
 
