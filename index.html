@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Why Dogs are Cooler Than Cats
@@ -7,24 +8,25 @@
     </head>
     
     <body>
-        <script src="app.js"></script>
-        <main>
-            <h1>Why Dogs are Cooler Than Cats</h1>
+        <header>
+            <h1>Why Dogs are Cooler Than Cats  </h1>
+        </header>
+        <main id = "myMain">
+            <div>
+                <script src="app.js"></script>
+            </div>
             <script>
-                let greeting = 'Hello my favorite between a Dogs or Cats is ';
-                let favorite = prompt('What is your favorite, Dogs or Cats?');
-
-                if (favorite === 'Dogs') {
-                    greeting = 'WELCOME TO THE PROMISED LAND' ; 
-                } else if (favorite === 'Cats') {
-                    greeting = 'INCORRECT ANSWER' ; 
+                if (dogoPeople()) {
+                  document.write('<button onclick="cycleImages()">Change Image</button>');
+                  document.write('<img id="displayImage" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.VcAMEB0WEk8J4-CeujPInQHaJ6%26pid%3DApi&f=1&ipt=274a18106f65b46c0fcff3822f0beb369c19e922a0aaa0ccf8d0f8f7b5dc2d12&ipo=images" alt="Displayed Image">');
+                  document.write('<p id="caption" class="caption">Dogs can cook steak</p>')
+      
+                  forDogoPeople();
                 } else {
-                    greeting = 'DOGS ARE THE BEST';
+                  document.write('<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.explicit.bing.net%2Fth%3Fid%3DOIP.VxVW7yxLhtJCfK84h6kdgAHaEK%26pid%3DApi&f=1&ipt=d38c3ecf2568f9239232c33cfd883c1e4d955525041fe84720c782564455c79e&ipo=images" alt="But why a cat??"><br>');
+                  document.write('Cats can not cook steak</p>')
                 }
-
-                document.write(greeting + "!!!");
-
-            </script>
+              </script>
             <ol>
                 <li>Dogs can cook steaks</li>
                 <li>Dogs can rescue Cats</li>
@@ -33,7 +35,7 @@
             </ol>
             <p1>For more details consider clicking this <a href="https://www.thesprucepets.com/reasons-dogs-are-better-than-cats-1118371">link</a></p1>
             <div>
-                <p2><a href="https://0xquasark.github.io/102-class04/">Link to partners</a></p2>
+                
             </div>
         </main>
     </body>
